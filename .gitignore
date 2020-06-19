@@ -32,3 +32,5 @@ Thumbs.db
 *.bsc
 .vs/
 Library/
+Debug/
+Win32/
