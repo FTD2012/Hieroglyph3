@@ -3,11 +3,8 @@ Welcome to the Hieroglyph 3 Rendering Engine!
 Method Making project work:
 -------------
 1. Install Visual Studio 2013.
-2. Replace all "“" and "”" with """ in Hieroglyph3_Desktop.vcxproj.
-3. Create "Bin" floder in "*/Hieroglyph/Applications" floder.
-4. Change "m_pRenderView->SetBackColor( Vector4f( 0.2f, 0.2f, 0.4f, 0.0f ) );" to "m_pRenderView->SetColorClearValue( Vector4f( 0.2f, 0.2f, 0.4f, 0.0f ) );" in "*/Hieroglyph/Applications/ImmediateRenderer/App.cpp" at line 73.
-5. Open Hieroglyph3_Desktop.sln with Visual Studio 2013 which has been just intall at step 1. Set another project as startup project except Hieroglyph3_Desktop.
-6. The package "directxtk_desktop_2013 2014.11.24.1" will install automatically when the Hieroglyph3_Desktop.sln was first time open.
+2. Open Hieroglyph3_Desktop.sln with Visual Studio 2013 which has been just intall at step 1. Set another project as startup project except Hieroglyph3_Desktop.
+3. The package "directxtk_desktop_2013 2014.11.24.1" will install automatically when the Hieroglyph3_Desktop.sln was first time open.
 
 Introduction:
 -------------

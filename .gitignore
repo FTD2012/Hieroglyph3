@@ -3,6 +3,7 @@
 *.sdf
 *.suo
 *.user
+*.tlog
 #Ignore incremental build information
 ipch/
 #Ignore Intellisence database
@@ -34,3 +35,4 @@ Thumbs.db
 Library/
 Debug/
 Win32/
+packages/
