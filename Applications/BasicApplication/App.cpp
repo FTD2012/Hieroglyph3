@@ -51,7 +51,6 @@ bool App::ConfigureEngineComponents()
 	
 	// Create the renderer and initialize it for the desired device
 	// type and feature level.
-
 	m_pRenderer11 = new RendererDX11();
 
 	if ( !m_pRenderer11->Initialize( D3D_DRIVER_TYPE_HARDWARE, D3D_FEATURE_LEVEL_10_0 ) )
@@ -74,7 +73,6 @@ bool App::ConfigureEngineComponents()
 	// Create a swap chain for the window that we started out with.  This
 	// demonstrates using a configuration object for fast and concise object
 	// creation.
-
 	SwapChainConfigDX11 Config;
 	Config.SetWidth( m_pWindow->GetWidth() );
 	Config.SetHeight( m_pWindow->GetHeight() );
@@ -83,19 +81,16 @@ bool App::ConfigureEngineComponents()
 	m_pWindow->SetSwapChain( m_iSwapChain );
 
 	// We'll keep a copy of the render target index to use in later examples.
-
 	m_RenderTarget = m_pRenderer11->GetSwapChainResource( m_iSwapChain );
 
 	// Next we create a depth buffer for use in the traditional rendering
 	// pipeline.
-
 	Texture2dConfigDX11 DepthConfig;
 	DepthConfig.SetDepthBuffer( width, height );
 	m_DepthTarget = m_pRenderer11->CreateTexture2D( &DepthConfig, 0 );
 	
 	// Bind the swap chain render target and the depth buffer for use in 
 	// rendering.  
-
 	m_pRenderer11->pImmPipeline->ClearRenderTargets();
 	m_pRenderer11->pImmPipeline->OutputMergerStage.DesiredState.RenderTargetViews.SetState( 0, m_RenderTarget->m_iResourceRTV );
 	m_pRenderer11->pImmPipeline->OutputMergerStage.DesiredState.DepthTargetViews.SetState( m_DepthTarget->m_iResourceDSV );
@@ -104,7 +99,6 @@ bool App::ConfigureEngineComponents()
 
 	// Create a view port to use on the scene.  This basically selects the 
 	// entire floating point area of the render target.
-
 	D3D11_VIEWPORT viewport;
 	viewport.Width = static_cast< float >( width );
 	viewport.Height = static_cast< float >( height );

@@ -1607,5 +1607,6 @@
     <None Include="..\Include\TStateCache.inl">
       <Filter>Rendering\Resource System\State Objects</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

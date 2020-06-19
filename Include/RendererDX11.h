@@ -120,23 +120,19 @@ namespace Glyph3
 
 		// Access to the renderer.  There should only be a single instance
 		// of the renderer at any given time.
-
 		static RendererDX11* Get();
 
 		// Provide the feature level of the current machine.  This can be
 		// called before or after the device has been created.
-
 		D3D_FEATURE_LEVEL GetAvailableFeatureLevel( D3D_DRIVER_TYPE DriverType );
 		D3D_FEATURE_LEVEL GetCurrentFeatureLevel();
 
 		// Provide an estimate of the available video memory.
-
 		UINT64 GetAvailableVideoMemory();
 
 		// Renderer initialization and shutdown methods.  These methods
 		// obtain and release all of the hardware specific resources that
 		// are used during rendering.
-
 		bool Initialize( D3D_DRIVER_TYPE DriverType, D3D_FEATURE_LEVEL FeatureLevel );
 		void Shutdown();
 

@@ -495,6 +495,7 @@
     <None Include="..\Include\TStateCache.inl" />
     <None Include="..\Include\TStateMonitor.inl" />
     <None Include="..\Include\Tween.inl" />
+    <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
     <None Include="Source.licenseheader" />
   </ItemGroup>

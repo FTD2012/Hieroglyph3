@@ -22,36 +22,36 @@ namespace Glyph3
 	class RenderWindow
 	{
 	public:
-		RenderWindow( );
-		virtual ~RenderWindow( );
+		RenderWindow();
+		virtual ~RenderWindow();
 
-		virtual void Initialize( IWindowProc* WindowProcObj ) = 0;
+		virtual void Initialize(IWindowProc* WindowProcObj) = 0;
 		virtual void Shutdown() = 0;
 		virtual void Paint() = 0;
 
 		HWND GetHandle();
 
-		void SetWidth( int width );
-		void SetHeight( int height );
+		void SetWidth(int width);
+		void SetHeight(int height);
 
 		int GetWidth();
 		int GetHeight();
 		int GetLeft();
 		int GetTop();
 
-		void SetSize( int width, int height );
-		void SetPosition( int left, int top );
+		void SetSize(int width, int height);
+		void SetPosition(int left, int top);
 
-		void ResizeWindow( int width, int height );
+		void ResizeWindow(int width, int height);
 
 		int GetSwapChain();
-		void SetSwapChain( int swapchain );
+		void SetSwapChain(int swapchain);
 
-		void SetCaption( std::wstring& caption );
+		void SetCaption(std::wstring& caption);
 		std::wstring GetCaption();
 
-		void SetStyle( DWORD dStyle );
-		DWORD GetStyle(); 
+		void SetStyle(DWORD dStyle);
+		DWORD GetStyle();
 
 	protected:
 

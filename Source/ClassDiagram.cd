@@ -1,0 +1,2437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Glyph3::EvtErrorMessage">
+    <Position X="4.25" Y="25.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAYAAAAAAAAAAAAAAAABAAAIAAAAAAAQA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtErrorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtInfoMessage">
+    <Position X="8.25" Y="25.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAIAYAAAAAAAAAAAAQAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtInfoMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Timer" Collapsed="true">
+    <Position X="108" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAQAAgBACACAAAAAJBAAAEAAEgBCAAAMCEAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtFrameStart">
+    <Position X="84.75" Y="25.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAABAAAQAAAAAAAAAABBAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtFrameStart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseLButtonDown">
+    <Position X="12.25" Y="32.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseLButtonUp">
+    <Position X="18.25" Y="32.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAAAAAQAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseLeave">
+    <Position X="24" Y="32.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLeave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseMButtonDown">
+    <Position X="29.5" Y="32.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseMButtonUp">
+    <Position X="35.5" Y="32.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAAAAAQAABAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseMove">
+    <Position X="41.25" Y="32.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMove.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseMsg">
+    <Position X="35.5" Y="29" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAAAAAAIAIQAAAAAAAAAAYAAAAAAgAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseRButtonDown">
+    <Position X="46.75" Y="32.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseRButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseRButtonUp">
+    <Position X="52.75" Y="32.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAAAAAQAAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseRButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtMouseWheel">
+    <Position X="58.5" Y="32.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAQAAAAAAAABAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseWheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtWindowResize">
+    <Position X="64" Y="29" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAABAJAAAACAAAQAEEAAAAAAAIAAgAAAEAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtWindowResize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtChar">
+    <Position X="74.5" Y="32.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtChar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtKeyboardMsg">
+    <Position X="74.25" Y="29" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAIRAAAAAEAAAAAAAIAAAAAMAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyboardMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtKeyDown">
+    <Position X="79.5" Y="32.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtKeyUp">
+    <Position X="69.5" Y="32.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAEAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EvtWindowMsg">
+    <Position X="45.75" Y="25.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAAAAASEIAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtWindowMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::EventManager" Collapsed="true">
+    <Position X="102.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIBAACAAAAEBAAAAAAkAAAAEAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IEvent">
+    <Position X="44.5" Y="23.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IEventListener">
+    <Position X="29.75" Y="1.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAgAAQAAIAAAAAAQAAAAAEAAAABBA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IEventListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IController&lt;T&gt;">
+    <Position X="71.75" Y="49.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAQAAABEAAAABAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ControllerPack&lt;T&gt;" Collapsed="true">
+    <Position X="108" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAEAAAAAAABAAAAAAAAQAIAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PositionExtractorController&lt;T&gt;">
+    <Position X="53" Y="52.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAgAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PositionExtractorController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RotationController&lt;T&gt;">
+    <Position X="58.25" Y="52.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAAAAAEBAAAAAAAIAAAAAQABAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RotationController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ScaleSetpointController&lt;T&gt;">
+    <Position X="62.5" Y="52.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAACAAAAAAAABAIAAAAAgAQIACAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScaleSetpointController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SetpointController&lt;T, U&gt;">
+    <Position X="67.25" Y="52.5" Width="5.75" />
+    <NestedTypes>
+      <Struct Name="Glyph3::SetpointController&lt;T, U&gt;::Setpoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SetpointController.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAADABABAIABBAAACAAAACAIAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SetpointController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SkinnedBoneController&lt;T&gt;">
+    <Position X="73.75" Y="52.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>JQQIckCIAgiQAAAAIABAGAAAAACAIAYAACAAAAAAQAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SkinnedBoneController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SpatialController&lt;T&gt;">
+    <Position X="79.25" Y="52.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>ACUAgAAAAACQAACABQCAABAAAAEAAAgIQAIAIGIBAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpatialController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::StatefulSetpointController&lt;StateType, HostType&gt;">
+    <Position X="85" Y="52.5" Width="7.75" />
+    <NestedTypes>
+      <Struct Name="Glyph3::StatefulSetpointController&lt;StateType, HostType&gt;::Setpoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\StatefulSetpointController.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAYAEAAAAgAAAAAgAAQAABgAAICAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\StatefulSetpointController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Node3D" Collapsed="true">
+    <Position X="106.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UEQgACEAAAACACAAEIAABAQAAABCAEAAABACQAQABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Node3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Entity3D" Collapsed="true">
+    <Position X="118.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQMAQIAgAACAAAAEoAABAQAAABAAEAAAJACQIQgBAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Entity3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PickRecord" Collapsed="true">
+    <Position X="115" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAQAAAAAAgAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PickRecord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Transform3D" Collapsed="true">
+    <Position X="109.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACGABQYEgEQIAAAAABABACAAAAAABAAIAFAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Transform3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Light">
+    <Position X="8.25" Y="5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACACAQAESAgAAAAAAgAAAAIAEBAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PointLight">
+    <Position X="8.5" Y="9.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PointLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ActorGenerator" Collapsed="true">
+    <Position X="102.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ActorGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ObjectSpaceCameraPositionWriter">
+    <Position X="8.5" Y="42" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAYAAAAAAAAAAEAAAABAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ObjectSpaceCameraPositionWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TextureSpaceCameraPositionWriter">
+    <Position X="13.25" Y="42" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAEQAICAAAAAAAAAAAABAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextureSpaceCameraPositionWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TextureSpaceLightPositionWriter">
+    <Position X="18" Y="42" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAACAAABAAAAEAAABAACAAAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextureSpaceLightPositionWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Actor">
+    <Position X="35.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAABgAAEAAACAAAAEAACAAAAEAIAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Actor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BoundsVisualizerActor">
+    <Position X="36.75" Y="5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BoundsVisualizerActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConsoleActor">
+    <Position X="32.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAgAAAAAAAAAAQABAAgAAAAAAAAAAAEAAABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConsoleActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::FullscreenActor">
+    <Position X="41.5" Y="5" Width="3" />
+    <NestedTypes>
+      <Typedef Name="Glyph3::FullscreenActor::DrawGeometryPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FullscreenActor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAQAAAAAAAAiAAAACAAAgAAAgAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FullscreenActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::FullscreenTexturedActor">
+    <Position X="45.25" Y="5" Width="3.5" />
+    <NestedTypes>
+      <Typedef Name="Glyph3::FullscreenTexturedActor::DrawGeometryPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FullscreenTexturedActor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAACAAAAQAAAAAAAACAAAAAAAAAAAACAABA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FullscreenTexturedActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryActor">
+    <Position X="49.5" Y="5" Width="9" />
+    <TypeIdentifier>
+      <HashCode>AAIYAAgAQAACAAAIQAwAAogIQAAggiCIAEhABIsCQAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GlyphletActor">
+    <Position X="51.75" Y="15" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAGAAABBAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GlyphletActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MatrixArrayParameterDX11">
+    <Position X="68.5" Y="45.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>gAAQgAAAAAAAAAAAAIAAAAAAgAAEAAAAAAAgCAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MatrixArrayParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SkinnedActor">
+    <Position X="64.25" Y="5" Width="11" />
+    <TypeIdentifier>
+      <HashCode>AAIEAACAAQCAAAQAAQAAABAAgBAgAAAACAAAAABBAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SkinnedActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SkyboxActor">
+    <Position X="59.25" Y="5" Width="4.25" />
+    <NestedTypes>
+      <Typedef Name="Glyph3::SkyboxActor::DrawGeometryPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SkyboxActor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACACAAQAAAAAAAACAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SkyboxActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TextActor">
+    <Position X="12.75" Y="5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>BEAAIGAIkBCmBACAQIgCAKCAQAEAAKCQAEoCAAkQAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TextureActor">
+    <Position X="18.5" Y="5" Width="4.25" />
+    <NestedTypes>
+      <Typedef Name="Glyph3::TextureActor::DrawGeometryPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextureActor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACACAAQAAAEAAAACAAAACAAAgAACgAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextureActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VolumeActor">
+    <Position X="23.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAEAAAAAAAAAABAAAAAAAAAACAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VolumeActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Scene" Collapsed="true">
+    <Position X="118.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQCBAACAAAAAAAAgAAAIAAEQAAAEEAAIJIAEAgAAIA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Camera">
+    <Position X="34.25" Y="9" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>ACYCAIaAWACAwEKAQEB0BoAEAEgAAABASICACAACJAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::FirstPersonCamera">
+    <Position X="35.25" Y="18.75" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="Glyph3::FirstPersonCamera::ControlKeys" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FirstPersonCamera.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAADAAAAAAQAAAAAAIAQCAAIAACAEAABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FirstPersonCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GlyphString" Collapsed="true">
+    <Position X="111.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GlyphString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Log" Collapsed="true">
+    <Position X="120.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAAQAgAAgAAAAAAAAGAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TConfiguration&lt;T&gt;" Collapsed="true">
+    <Position X="115" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAACAEAAAAAgAAAAAEAAAgAAAAAAQAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TConfiguration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::CompositeShape" Collapsed="true">
+    <Position X="118.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAAEAAAAAAIAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\CompositeShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TriangleIndices" Collapsed="true">
+    <Position X="111.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAIAAABAAAAAACAAAABAABAAAIAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TriangleIndices.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Animation" Collapsed="true">
+    <Position X="104.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAgCAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::AnimationState&lt;T&gt;" Collapsed="true">
+    <Position X="106.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AnimationStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::AnimationStream&lt;T&gt;" Collapsed="true">
+    <Position X="108" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEIAAABAAAAAAQAAAAEAAAAgiAAMwAAAAAAAGgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AnimationStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DXGIOutput" Collapsed="true">
+    <Position X="116.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DXGIOutput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DXGIAdapter" Collapsed="true">
+    <Position X="115" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DXGIAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RendererDX11" Collapsed="true">
+    <Position X="109.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZYAEyoCWHMgQAxhAAkEewTbIFCADAAuMMTBIAG1DCDE=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SpriteFontDX11" Collapsed="true">
+    <Position X="113.25" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Glyph3::SpriteFontDX11::FontStyle" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteFontDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Glyph3::SpriteFontDX11::CharDesc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteFontDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AwoAEIAgAIAAkwSgAAAAAQAACgAAIABBAAAABAEAoSA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteFontDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SpriteFontLoaderDX11" Collapsed="true">
+    <Position X="115" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteFontLoaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PipelineManagerDX11" Collapsed="true">
+    <Position X="116.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VggIETEJABogZgGAIEEEBFCAAyAEwhCACAlAiBIA0og=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PipelineManagerDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SpriteRendererDX11" Collapsed="true">
+    <Position X="116.75" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Glyph3::SpriteRendererDX11::FilterMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteRendererDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAwAACAQAAAAAAAAAgEAAAChAAABAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteRendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SceneRenderTask">
+    <Position X="83" Y="62.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AQAIpAAEEAAACACAIAAkUAFAADIAAgAEIoiiCAFCSAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SceneRenderTask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Task">
+    <Position X="74.25" Y="59.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAQAAAAAAAAUAAAAAAAAAAAAAIEAAAAAABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewAmbientOcclusion">
+    <Position X="79.25" Y="75" Width="7" />
+    <TypeIdentifier>
+      <HashCode>AQQKAIgIAQAAcAAAAAEAEAAAAAABAgAAKgCAgAEARAI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewAmbientOcclusion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewDepthNormal">
+    <Position X="87" Y="75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAQEAAAAAAAAAAAAAIAAAAAACBAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewDepthNormal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewHighDynamicRange">
+    <Position X="70.5" Y="71" Width="8" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACQAAAgABAAEAAAAAGAAAAACAAAACAGEAFAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewHighDynamicRange.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewOcclusion">
+    <Position X="53.5" Y="62.5" Width="8.75" />
+    <TypeIdentifier>
+      <HashCode>AASIAAgIIQAAYAAgAAEAABAAAAAAAAAAIABBAAEDBAI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewOcclusion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewPerspective">
+    <Position X="83" Y="71" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAQAAAAAAAAEAAAAAEAAAAAAQAAAAAAEAFAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewPerspective.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewPerspectiveHighlight">
+    <Position X="94.5" Y="71" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAEAAABAEAAAAAAAAIAAAAEBFAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewPerspectiveHighlight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewTextOverlay">
+    <Position X="63" Y="62.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAQMAAAIAQAIAAAAAAEEAAAAECAAAAAApAgAAAEABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewTextOverlay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MaterialTemplate" Collapsed="true">
+    <Position X="115" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAAAAAA0gAAAAAEAAAAEAUQAAEACBKUAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialTemplate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MaterialDX11" Collapsed="true">
+    <Position X="109.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASIAAIAAAAACAAAAAAAAAABAAAAAEAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Renderable" Collapsed="true">
+    <Position X="106.25" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Glyph3::Renderable::ENTITYTYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Renderable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAgAQAAAQAAAAAAAAAAAAACAAEAAAAQAAAACA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Renderable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IParameterManager">
+    <Position X="24.5" Y="62.5" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>CCAAAIQAABACAQABCAAAwinAAAQACAEAAIQCQAjgUAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IParameterManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderEffectDX11" Collapsed="true">
+    <Position X="108" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIiAADAgDAAQAAAIAIQAAAABUAEIAAADADI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderEffectDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MaterialGeneratorDX11" Collapsed="true">
+    <Position X="111.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAQAAAAgAACAACAEACICAQMAAAEAAAAAAAACAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialGeneratorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MaterialManager" Collapsed="true">
+    <Position X="113.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAQCA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TStateArrayMonitor&lt;T, N&gt;" Collapsed="true">
+    <Position X="113.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAIACIkAAAAgAAAAAABgAhAAFACgARAAAAmA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TStateArrayMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TStateMonitor&lt;T&gt;" Collapsed="true">
+    <Position X="115" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABEAAAAADAsAAAAAAAAAAEAAAAAABACAAAAAAAiA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TStateMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RasterizerStageDX11" Collapsed="true">
+    <Position X="120.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAABAAAAAAACCAAAIABAAAIAAAgAiAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RasterizerStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RasterizerStageStateDX11" Collapsed="true">
+    <Position X="102.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAEIAAAAAEAAQCAAAAAAAAAAAAKACABAEI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RasterizerStageStateDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::StreamOutputStageDX11" Collapsed="true">
+    <Position X="120.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAEAAAAAASCAAQIABAAAAAAAAAiAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\StreamOutputStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::StreamOutputStageStateDX11" Collapsed="true">
+    <Position X="102.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAJAAAAAAAAAAAAQCAAAAgAAAAAAAIAAQBABI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\StreamOutputStageStateDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::OutputMergerStageDX11" Collapsed="true">
+    <Position X="108" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAgAAAAAAAAASCAAAIABAAEAAgAAAiAAAE=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\OutputMergerStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::OutputMergerStageStateDX11" Collapsed="true">
+    <Position X="109.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAABAMAIEAAAAACAAAQCAAAAAQQAAAAAoAAABAAI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\OutputMergerStageStateDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::InputAssemblerStageDX11" Collapsed="true">
+    <Position X="116.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAAAAAAAAAAASCEAAIABAAAAAAAAAiAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\InputAssemblerStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::InputAssemblerStateDX11" Collapsed="true">
+    <Position X="118.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgIABIAAAAgAAAEUCEgAAAAAAQAAAIAgABAAI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\InputAssemblerStateDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ComputeStageDX11">
+    <Position X="60" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAABAACAAAAAAAAAAAAgQAAEAAAAAACAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ComputeStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DomainStageDX11">
+    <Position X="66.25" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAACAAAAAAAAABAAgwAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DomainStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryStageDX11">
+    <Position X="72.5" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAACAAACAAAAAACAAAAAgQAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::HullStageDX11">
+    <Position X="78.75" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAoAAAAAAAACAAAAAAAAEAAAgQAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\HullStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PixelStageDX11">
+    <Position X="85" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAIAAAAAAAACAAAAAAAAAAAIgQAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PixelStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderStageDX11">
+    <Position X="75.5" Y="15.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAQAAABAADAAAAAAACCAAAgQBAEAAAAAAAjAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VertexStageDX11">
+    <Position X="91.25" Y="20.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAABAAACAAAAAAAAAAAAgQAAEAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VertexStageDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderStageStateDX11" Collapsed="true">
+    <Position X="111.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAIAAAAAAAACAAAQLAAAAAAAAAAAArAAABEAI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderStageStateDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderReflectionDX11" Collapsed="true">
+    <Position X="104.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAEAAABBAAAAAYAAABAAAQgCAgAQAAABAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderReflectionFactoryDX11" Collapsed="true">
+    <Position X="106.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQIAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionFactoryDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ComputeShaderDX11">
+    <Position X="1.5" Y="17.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAABAAAAAAAAAEAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ComputeShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DomainShaderDX11">
+    <Position X="6.25" Y="17.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DomainShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryShaderDX11">
+    <Position X="11" Y="17.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAABAAIAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::HullShaderDX11">
+    <Position X="16" Y="17.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAACCAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\HullShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PixelShaderDX11">
+    <Position X="20.25" Y="17.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PixelShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderDX11">
+    <Position X="12.75" Y="13.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAEAAAAAAiEAAAAAAIgAAAAgIEAEAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderFactoryDX11" Collapsed="true">
+    <Position X="102.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAIAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderFactoryDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VertexShaderDX11">
+    <Position X="24.5" Y="17.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAQAAAAEAAAAAAAAAIAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VertexShaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TGrowableBufferDX11&lt;T&gt;">
+    <Position X="18.25" Y="20.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAIggIADAAAAAAABQAAAAAQIACAAAAAAAgAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TGrowableBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TGrowableIndexBufferDX11&lt;T&gt;">
+    <Position X="13.75" Y="25.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAQAAAEAAAAAAAAAAAAAIAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TGrowableIndexBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TGrowableStructuredBufferDX11&lt;T&gt;">
+    <Position X="18.25" Y="25.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACAAAAAAAAAABAAAAAAAgAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TGrowableStructuredBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TGrowableVertexBufferDX11&lt;T&gt;">
+    <Position X="22.75" Y="25.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAgAgABA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TGrowableVertexBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VertexElementDX11" Collapsed="true">
+    <Position X="106.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAEAIBAKEgBNwGkQQEAEEEAQAAAAAAAAA4AAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VertexElementDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BasicVertexDX11" Collapsed="true">
+    <Position X="109.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::BasicVertexDX11::Vertex" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BasicVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAQAAAgAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BasicVertexDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SpriteVertexDX11" Collapsed="true">
+    <Position X="118.5" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::SpriteVertexDX11::SpriteDrawRect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::SpriteVertexDX11::InstanceData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::SpriteVertexDX11::VertexData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAIAAAQAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteVertexDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TexturedVertex" Collapsed="true">
+    <Position X="106.25" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::TexturedVertex::Vertex" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TexturedVertex.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAIAAAAAAQAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TexturedVertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VisualizerVertexDX11" Collapsed="true">
+    <Position X="111.5" Y="9.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::VisualizerVertexDX11::VertexData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VisualizerVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::VisualizerVertexDX11::InstanceData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VisualizerVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAEAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VisualizerVertexDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VolumeTextureVertexDX11" Collapsed="true">
+    <Position X="113.25" Y="9.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::VolumeTextureVertexDX11::Vertex" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VolumeTextureVertexDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAQAAAAAQAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VolumeTextureVertexDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VertexBufferDX11">
+    <Position X="36.5" Y="58.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAAAAABAABAAAAAAAAAAAAAAAEAAAAAAAAQgAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VertexBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IndexBufferDX11">
+    <Position X="45.75" Y="58.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAAAAAIABAAAAAAAAAAEAAAAAABCAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IndexBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryDX11">
+    <Position X="14.75" Y="65.75" Width="8.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAgSAIBRAAQQAAEgAgAABAAAEACIABAQQAJaAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryGeneratorDX11" Collapsed="true">
+    <Position X="108" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAEAACAAAAAAAAAAAAICAAAAAAAAgBAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryGeneratorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GeometryLoaderDX11" Collapsed="true">
+    <Position X="109.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::GeometryLoaderDX11::PlyElementPropertyDeclaration" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryLoaderDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::GeometryLoaderDX11::PlyElementDesc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryLoaderDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::GeometryLoaderDX11::PlyDataArray&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryLoaderDX11.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABABAAAACBEQAAAAMAAAAAADgAAAEAAABAAAAARAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryLoaderDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DrawExecutorDX11&lt;TVertex&gt;">
+    <Position X="1.25" Y="65.75" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACBAAAAAUAAAAgBAAAAAAAACAAABBAQAACEAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DrawExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DrawIndexedExecutorDX11&lt;TVertex&gt;">
+    <Position X="1.25" Y="70.25" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAQIAEECAAAAAAQQAAEAEAAAAAAAAAAIAABAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DrawIndexedExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DrawIndexedInstancedExecutorDX11&lt;TVertex, TInstance&gt;">
+    <Position X="1.25" Y="74.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAAAAQiAAAAAAAAAEAAAAAEAABEAgAAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DrawIndexedInstancedExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MultiExecutorDX11">
+    <Position X="8" Y="65.75" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAgAAAAIgAIAAAAAAAEAACA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MultiExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PipelineExecutorDX11">
+    <Position X="9.25" Y="62.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAQAAAEAAAAAAAAAgAAAAAAAIAAAICI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PipelineExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::CommandListDX11" Collapsed="true">
+    <Position X="116.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAEAAAAAAAAEAAAAAAAABAAAAAAAgAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\CommandListDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BufferConfigDX11" Collapsed="true">
+    <Position X="115" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAkAUQAABAQAAgAgAgAAAAAAAAAQAAAIAAgwgAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BufferConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BufferDX11">
+    <Position X="32.25" Y="52" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAIBoAAAAggAAAgQIAACACAgRQBEIASAAgCAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ByteAddressBufferDX11">
+    <Position X="19" Y="58.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ByteAddressBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConstantBufferDX11">
+    <Position X="24" Y="58.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAQAQAAUQAAAAEAAAAEQgAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConstantBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IndirectArgsBufferDX11">
+    <Position X="31.5" Y="58.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IndirectArgsBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::StructuredBufferDX11">
+    <Position X="41" Y="58.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\StructuredBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SwapChainConfigDX11" Collapsed="true">
+    <Position X="111.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAhAACAAAgAIAAAgERAAQAAAQBAAEBIQgQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SwapChainConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SwapChainDX11" Collapsed="true">
+    <Position X="113.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAIAAAAAAAAACAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SwapChainDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture1dConfigDX11" Collapsed="true">
+    <Position X="120.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAQACBAAAAgAAAoAgABAAAEAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture1dConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture1dDX11">
+    <Position X="2.5" Y="52" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACIoAAAAAAAAAAAAAACAAAgEQBEAACAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture1dDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture2dConfigDX11" Collapsed="true">
+    <Position X="102.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAQACBAAAAgAAAoAgiAARAEAwAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture2dConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture2dDX11">
+    <Position X="8" Y="52" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACYoAAAAAAAAAAAAAACAAAgEQBEAACAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture2dDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture3dConfigDX11" Collapsed="true">
+    <Position X="104.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAABAQACBAAAAgAAAoAgBAAQAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture3dConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Texture3dDX11">
+    <Position X="13.5" Y="52" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACIoACAAAAAAAAAAAACAAAgEQBEAACAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Texture3dDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BlendStateConfigDX11" Collapsed="true">
+    <Position X="113.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAACAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BlendStateConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DepthStencilStateConfigDX11" Collapsed="true">
+    <Position X="109.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DepthStencilStateConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RasterizerStateConfigDX11" Collapsed="true">
+    <Position X="104.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RasterizerStateConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SamplerStateConfigDX11" Collapsed="true">
+    <Position X="116.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SamplerStateConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ViewPortDX11" Collapsed="true">
+    <Position X="109.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACBAAAAAAABEIAAAAAAAAAAIAEAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewPortDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DepthStencilViewConfigDX11" Collapsed="true">
+    <Position X="111.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECgAAQQCARAAgAIAAAIAEAAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DepthStencilViewConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::DepthStencilViewDX11" Collapsed="true">
+    <Position X="113.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\DepthStencilViewDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderTargetViewConfigDX11" Collapsed="true">
+    <Position X="111.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQCARAAhAIAAAIAEAEAAAAgIAAAAAAQAAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderTargetViewConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderTargetViewDX11" Collapsed="true">
+    <Position X="113.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderTargetViewDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderResourceViewConfigDX11" Collapsed="true">
+    <Position X="108" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAQCARAAhAIAAAoAMgAAIAAIAAAAAAAQAAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderResourceViewConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderResourceViewDX11" Collapsed="true">
+    <Position X="109.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderResourceViewDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::UnorderedAccessViewConfigDX11" Collapsed="true">
+    <Position X="116.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAQCABAABAIAAAoAEAABAAAAAAAAAAAQAAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\UnorderedAccessViewConfigDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::UnorderedAccessViewDX11" Collapsed="true">
+    <Position X="118.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAQAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\UnorderedAccessViewDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ResourceDX11">
+    <Position X="24.25" Y="48.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAEAAAAAAAAAAABAAAAAAAEABEQASAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ResourceDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ResourceProxyDX11" Collapsed="true">
+    <Position X="115" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoIQAAAAAAAgAAAAAAAIAAIAAAAEAAACAAAAABAQEOI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ResourceProxyDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConstantBufferParameterDX11">
+    <Position X="36" Y="45.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABQAAAAAAAQAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConstantBufferParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MatrixParameterDX11">
+    <Position X="41.75" Y="45.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAAAAAAAAAAAAACAAAAAAEAAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MatrixParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderParameterDX11">
+    <Position X="53" Y="41.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAACgAAAAAUAAAAEAgAAAAAAQAAABAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SamplerParameterDX11">
+    <Position X="46.75" Y="45.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAQABAAAAABAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SamplerParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderResourceParameterDX11">
+    <Position X="51.75" Y="45.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIAAAAAAAQAAQAAAAAAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderResourceParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::UnorderedAccessParameterDX11">
+    <Position X="57.5" Y="45.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAACCAAAAAEAYAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\UnorderedAccessParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VectorParameterDX11">
+    <Position X="63.5" Y="45.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgAAAAAAIAAAAAEAAAAAAAABABAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VectorParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConstantBufferParameterWriterDX11">
+    <Position X="22.75" Y="38" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAAAAAAAAAAQEABAAACAAEAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConstantBufferParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MatrixArrayParameterWriterDX11">
+    <Position X="28.5" Y="38" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAAQAQAAAAAQAABAAAiIAAAQAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MatrixArrayParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MatrixParameterWriterDX11">
+    <Position X="34" Y="38" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAAAAAAAgAAAAAAAAAAAAQAABAAASAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MatrixParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ParameterWriter">
+    <Position X="24" Y="35.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAABAAAAAAAAAAAAAQAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ParameterWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SamplerParameterWriterDX11">
+    <Position X="39.25" Y="38" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAAAAAAQAAAQAABAQACAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SamplerParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ShaderResourceParameterWriterDX11">
+    <Position X="44.5" Y="38" Width="5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAEAAAAgAAAAAAAAAAAAQAABAAACAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderResourceParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::UnorderedAccessParameterWriterDX11">
+    <Position X="2.5" Y="38" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAAAAAAgAAACAAAAAgAAQAABAAACAAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\UnorderedAccessParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VectorParameterWriterDX11">
+    <Position X="13" Y="38" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAgAAAAAAAAAAAAQAABAAAiIAAAQAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VectorParameterWriterDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ParameterContainer" Collapsed="true">
+    <Position X="111.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAJYAIIAAAAAAAAAAAgGAUEAAAAEBQAAAAAAAyRA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ParameterContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ParameterManagerDX11">
+    <Position X="24.5" Y="72.25" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>SCAAAIYAABACAUAACBAAginAgBQAmAMAAIQGQAjgUAE=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ParameterManagerDX11.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Evaluator&lt;TModel, TVertex&gt;" Collapsed="true">
+    <Position X="120.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::Evaluator&lt;TModel, TVertex&gt;::concept" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AttributeEvaluator2f.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Glyph3::Evaluator&lt;TModel, TVertex&gt;::model&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AttributeEvaluator2f.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AttributeEvaluator2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::VertexEvaluator2f&lt;TModel, TVertex&gt;" Collapsed="true">
+    <Position X="108" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAACAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VertexEvaluator2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SurfacePositionFromCone&lt;TVertex&gt;" Collapsed="true">
+    <Position X="108" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConeAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SurfaceNormalFromCone&lt;TVertex&gt;" Collapsed="true">
+    <Position X="104.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConeAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TexcoordsFromCone&lt;TVertex&gt;" Collapsed="true">
+    <Position X="116.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConeAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConstantColorFromCone&lt;TVertex&gt;" Collapsed="true">
+    <Position X="104.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConeAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SurfacePositionFromSphere&lt;TVertex&gt;" Collapsed="true">
+    <Position X="109.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SphereAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SurfaceNormalFromSphere&lt;TVertex&gt;" Collapsed="true">
+    <Position X="106.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SphereAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::TexcoordsFromSphere&lt;TVertex&gt;" Collapsed="true">
+    <Position X="118.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SphereAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConstantColorFromSphere&lt;TVertex&gt;" Collapsed="true">
+    <Position X="106.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAIAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SphereAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::GridTessellator2f&lt;TEvaluator, TContainer&gt;" Collapsed="true">
+    <Position X="113.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAQAAQAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GridTessellator2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ImageProcessor" Collapsed="true">
+    <Position X="115" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAhAEABAAAAAAAAAAAQAAAQAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ImageProcessor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ScriptIntfActor">
+    <Position X="0.5" Y="46.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAACCQAAAAAAAABAAAEAAAAggAAAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptIntfActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ScriptIntfApp">
+    <Position X="5.25" Y="46.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACQAQAAAAAAAQgAAAoAAAAAADAAAAAAACA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptIntfApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::LuaApp" Collapsed="true">
+    <Position X="102.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAgBQAAAACAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\LuaApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::LuaGeometryActor" Collapsed="true">
+    <Position X="104.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAQAAAAAIAAAAAAAAAQAABAAAAEAgAAAEAAoA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\LuaGeometryActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::LuaScene" Collapsed="true">
+    <Position X="106.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABABAAAAAAAAAAAAAAAAAQAAAABAAAgEAAAAAAAAIA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\LuaScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::LuaTextActor" Collapsed="true">
+    <Position X="108" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAEAAAgAAQAACAAIACAICAAAABAAAAEAgAAAAAAIA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\LuaTextActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Console" Collapsed="true">
+    <Position X="120.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAGAAAAAEAAAAAAAAAAEAAAAAACAAAAAAAAAAAQAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IScriptInterface">
+    <Position X="3.25" Y="44.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IScriptInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ScriptManager" Collapsed="true">
+    <Position X="120.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIYgEAAAgAgQAJAAAAACAAIEAAAAAAAAAECAgFAACI=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Glyphlet">
+    <Position X="28.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAQAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Glyphlet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::SingleWindowGlyphlet">
+    <Position X="28.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAACEAAAQCAAAAUAwAAEAAAABAAQAAAQAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SingleWindowGlyphlet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Application">
+    <Position X="21" Y="10" Width="6" />
+    <TypeIdentifier>
+      <HashCode>CAQgAAAAARACAQCABAAQA0AAAAACCAEAAgAAAAwCIAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::ConsoleWindow" Collapsed="true">
+    <Position X="102.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAFAgCEAAIIAAAAQAAAAEAIAAAAAAIADCYGIAEQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConsoleWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::FileLoader" Collapsed="true">
+    <Position X="104.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIBAAAABAAEACAQAAAAAAAACAAACAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FileLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::FileSystem" Collapsed="true">
+    <Position X="106.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAQgAIiiAAHAQAAEBABAACAAAAAAAgBAAgAAAAAAAgE=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\FileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IWindowProc">
+    <Position X="1" Y="8" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IWindowProc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderApplication">
+    <Position X="41.25" Y="16" Width="9.25" />
+    <NestedTypes>
+      <Enum Name="Glyph3::RenderApplication::InputMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderApplication.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARhECAAAEQCAAAIAAAcFAQAAAAAAAEASUAESIAIAAE=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderApplication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::RenderWindow">
+    <Position X="28.25" Y="20.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AMAgAAQAACCIIQAAAAAMgQTAAAQAAoAAQEAICEAIAAw=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Vector2f" Collapsed="true">
+    <Position X="120.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAAAAEAAAAQAAAAEAAAAAAABgQAEAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Vector2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Win32RenderWindow">
+    <Position X="28.25" Y="28" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIAAAAAAQAgAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Win32RenderWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Win32Window" Collapsed="true">
+    <Position X="115" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAACAAIAAAAAAIAAAEAAQAAgAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Win32Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::BezierCubic" Collapsed="true">
+    <Position X="111.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAAgAAAAAAAAAAAAAACAAQAAAAAAAQAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BezierCubic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Matrix3f" Collapsed="true">
+    <Position X="116.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCQCAAEAAAAIAAEAAQASABQQEBAAQAAEAgACgAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Matrix3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Matrix4f" Collapsed="true">
+    <Position X="118.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQCQCEAEACIAIAAUCIQISEAAwkgAAwAAEI0ICgAUAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Matrix4f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::PerlinNoise" Collapsed="true">
+    <Position X="113.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAABAEAgAAgAACAyAAAAAAABAAAAQA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PerlinNoise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Quaternion&lt;Real&gt;" Collapsed="true">
+    <Position X="118.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIAIAAgAAAEAIAAAAAAAAAAAAAAhgAQAQAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Quaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Vector3f" Collapsed="true">
+    <Position X="102.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAABAAAEAAAAQAACAEABAAEAADggQEAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Vector3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Vector4f" Collapsed="true">
+    <Position X="104.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABEAAAAIAAEAAAAQAgCAEAAAAAAAhgAQEAABA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Vector4f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::Intersector">
+    <Position X="4.75" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Intersector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IntrRay3fBox3f">
+    <Position X="0.5" Y="30.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAgAAAAAAAAAAAAAAIAAgAKAAAKAAAAEA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IntrRay3fBox3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::IntrRay3fSphere3f">
+    <Position X="5.75" Y="30.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAAAAAAAAAAAAAIAQgACAAACAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IntrRay3fSphere3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::MTL::MeshMTL" Collapsed="true">
+    <Position X="120.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::MTL::MeshMTL::material_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshMTL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshMTL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::OBJ::MeshOBJ" Collapsed="true">
+    <Position X="102.75" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Glyph3::OBJ::MeshOBJ::face_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="Glyph3::OBJ::MeshOBJ::__unnamed_struct_0074_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="Glyph3::OBJ::MeshOBJ::subobject_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="Glyph3::OBJ::MeshOBJ::__unnamed_struct_0074_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="Glyph3::OBJ::MeshOBJ::object_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="Glyph3::OBJ::MeshOBJ::__unnamed_struct_0074_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAABQAAAAAIAAAAQBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshOBJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph3::STL::MeshSTL" Collapsed="true">
+    <Position X="104.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Glyph3::STL::MeshSTL::Face" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshSTL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MeshSTL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Glyph3::AxisAlignedBox" Collapsed="true">
+    <Position X="102.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEAAAAAAAAAAAEAAAAAAQAAAAAAAAACAAAgAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\AxisAlignedBox.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Box3f" Collapsed="true">
+    <Position X="104.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACAAAAAEAAgAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Box3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Cone3f" Collapsed="true">
+    <Position X="106.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAIAAAAAAAAAAQAQAEAAAAAoQAAAAAACAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Cone3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Frustum3f" Collapsed="true">
+    <Position X="111.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAABAAAIgAAAAAACAAAAIA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Frustum3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::LineIndices" Collapsed="true">
+    <Position X="115" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAEhAIAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\LineIndices.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Plane3f" Collapsed="true">
+    <Position X="113.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAEAAAAIAAAAAAAACkBQAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Plane3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::PointIndices" Collapsed="true">
+    <Position X="115" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAABAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PointIndices.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Ray3f" Collapsed="true">
+    <Position X="116.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAQAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Ray3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Segment3f" Collapsed="true">
+    <Position X="120.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAEAAACAgAACAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Segment3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Sphere3f" Collapsed="true">
+    <Position X="106.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAiAAECAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAACIA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Sphere3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::Triangle3f" Collapsed="true">
+    <Position X="113.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAQAAAAAAAEAAAAEAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\Triangle3f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::TextEntry" Collapsed="true">
+    <Position X="109.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIABAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ViewTextOverlay.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MaterialParams" Collapsed="true">
+    <Position X="116.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAIAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::ShaderInputBindDesc" Collapsed="true">
+    <Position X="102.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAQAAAQAAAAgUAAAAQAAADAEAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::ConstantBufferLayout" Collapsed="true">
+    <Position X="108" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DHeader" Collapsed="true">
+    <Position X="120.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DVertex" Collapsed="true">
+    <Position X="111.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DTriangle" Collapsed="true">
+    <Position X="109.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAMQAEAAAAQQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DGroup" Collapsed="true">
+    <Position X="118.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DMaterial" Collapsed="true">
+    <Position X="108" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABCAAAAAAAAACAAAAAAIIAAAAkAgAAAAAAAABAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DKeyframeRotation" Collapsed="true">
+    <Position X="106.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DKeyframePosition" Collapsed="true">
+    <Position X="104.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::MS3DKeyframeJoint" Collapsed="true">
+    <Position X="102.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAQACAIACAAAAEAAAAASAAAAAAAAQ=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ms3dspec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::InputLayoutKey" Collapsed="true">
+    <Position X="113.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PipelineExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::ConstantBufferMapping" Collapsed="true">
+    <Position X="109.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAABAAAIAAAAAAAAAAAAECAAAAAAAAQAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ConstantBufferDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::UAVParameterData" Collapsed="true">
+    <Position X="115" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\UnorderedAccessParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::ThreadPayLoad" Collapsed="true">
+    <Position X="111.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBAAAAAAAAAAAIAAAAAAIAAgAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::sClassData" Collapsed="true">
+    <Position X="118.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAEAAAEAAQAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::sObjectData" Collapsed="true">
+    <Position X="104.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph3::sPointerData" Collapsed="true">
+    <Position X="108" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ScriptManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Glyph3::EvtErrorMessagePtr" Collapsed="true">
+    <Position X="115" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtErrorMessage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtInfoMessagePtr" Collapsed="true">
+    <Position X="118.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtInfoMessage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtFrameStartPtr" Collapsed="true">
+    <Position X="116.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtFrameStart.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseLButtonDownPtr" Collapsed="true">
+    <Position X="106.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseLButtonUpPtr" Collapsed="true">
+    <Position X="108" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseLeavePtr" Collapsed="true">
+    <Position X="109.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseLeave.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseMButtonDownPtr" Collapsed="true">
+    <Position X="111.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseMButtonUpPtr" Collapsed="true">
+    <Position X="113.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseMovePtr" Collapsed="true">
+    <Position X="115" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMove.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseMsgPtr" Collapsed="true">
+    <Position X="116.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseMsg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseRButtonDownPtr" Collapsed="true">
+    <Position X="118.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseRButtonDown.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseRButtonUpPtr" Collapsed="true">
+    <Position X="120.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseRButtonUp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtMouseWheelPtr" Collapsed="true">
+    <Position X="102.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtMouseWheel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtWindowResizePtr" Collapsed="true">
+    <Position X="106.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtWindowResize.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtCharPtr" Collapsed="true">
+    <Position X="113.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtChar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtKeyboardMsgPtr" Collapsed="true">
+    <Position X="120.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyboardMsg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtKeyDownPtr" Collapsed="true">
+    <Position X="102.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyDown.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtKeyUpPtr" Collapsed="true">
+    <Position X="104.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtKeyUp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EvtWindowMsgPtr" Collapsed="true">
+    <Position X="104.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\EvtWindowMsg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::EventPtr" Collapsed="true">
+    <Position X="111.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IEvent.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::VisualizerGeometryPtr" Collapsed="true">
+    <Position X="104.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\BoundsVisualizerActor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::IndexedImmediateGeometryPtr" Collapsed="true">
+    <Position X="111.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryActor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::VolumeGeometryPtr" Collapsed="true">
+    <Position X="106.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\VolumeActor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::SpriteFontPtr" Collapsed="true">
+    <Position X="111.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteFontDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::SpriteGeometryPtr" Collapsed="true">
+    <Position X="113.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SpriteRendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::MaterialPtr" Collapsed="true">
+    <Position X="115" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::GeometryPtr" Collapsed="true">
+    <Position X="109.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\GeometryDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::MultiExecutorPtr" Collapsed="true">
+    <Position X="116.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MultiExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::ExecutorPtr" Collapsed="true">
+    <Position X="108" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PipelineExecutorDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::UserDefinedAnnotationComPtr" Collapsed="true">
+    <Position X="102.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\PipelineManagerDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::ResourcePtr" Collapsed="true">
+    <Position X="104.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ResourceProxyDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::DeviceContextComPtr" Collapsed="true">
+    <Position X="109.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::QueryComPtr" Collapsed="true">
+    <Position X="118.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::BufferComPtr" Collapsed="true">
+    <Position X="104.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::Texture1DComPtr" Collapsed="true">
+    <Position X="115" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::Texture2DComPtr" Collapsed="true">
+    <Position X="116.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::Texture3DComPtr" Collapsed="true">
+    <Position X="118.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::ShaderResourceViewComPtr" Collapsed="true">
+    <Position X="108" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::DepthStencilViewComPtr" Collapsed="true">
+    <Position X="108" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::RenderTargetViewComPtr" Collapsed="true">
+    <Position X="102.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::UnorderedAccessViewComPtr" Collapsed="true">
+    <Position X="120.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::BlendStateComPtr" Collapsed="true">
+    <Position X="102.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::DepthStencilStateComPtr" Collapsed="true">
+    <Position X="106.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::RasterizerStateComPtr" Collapsed="true">
+    <Position X="120.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::SamplerStateComPtr" Collapsed="true">
+    <Position X="106.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::InputLayoutComPtr" Collapsed="true">
+    <Position X="113.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Glyph3::SingleWindowGlyphletPtr" Collapsed="true">
+    <Position X="109.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SingleWindowGlyphlet.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Glyph3::eEVENT" Collapsed="true">
+    <Position X="104.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAgCCIIQgAAABAAAAABAAQAAIBAAAAAAiAAggA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\IEvent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::TextOriginReference" Collapsed="true">
+    <Position X="116.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAABAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextActor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::LineJustification" Collapsed="true">
+    <Position X="108" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\TextActor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::VIEWTYPE" Collapsed="true">
+    <Position X="120.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAIARAAIAAAAAAAAAACBAEIAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\SceneRenderTask.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::ColorMode" Collapsed="true">
+    <Position X="102.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialTemplate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::LightingMode" Collapsed="true">
+    <Position X="106.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialTemplate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::TransparencyMode" Collapsed="true">
+    <Position X="118.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\MaterialTemplate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::ShaderType" Collapsed="true">
+    <Position X="115" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAhAgEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionDX11.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::ShaderMask" Collapsed="true">
+    <Position X="113.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAIAAAAAAAAAEAAAAQQAAAgAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\ShaderReflectionDX11.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::ParameterType" Collapsed="true">
+    <Position X="109.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAQAAAAAAIACAABAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RenderParameterDX11.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Glyph3::ResourceType" Collapsed="true">
+    <Position X="111.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAABACBAgAAAAAAEAAAAAAAAAABAAQAA=</HashCode>
+      <FileName>D:\WorkSpace\Hieroglyph3\sourceCode\hieroglyph3\Include\RendererDX11.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

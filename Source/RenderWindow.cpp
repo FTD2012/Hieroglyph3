@@ -14,7 +14,7 @@
 //--------------------------------------------------------------------------------
 using namespace Glyph3;
 //--------------------------------------------------------------------------------
-RenderWindow::RenderWindow( )
+RenderWindow::RenderWindow()
 {
 	m_hWnd = 0;
 	m_dStyle = (WS_OVERLAPPEDWINDOW | WS_VISIBLE);
@@ -33,17 +33,17 @@ RenderWindow::~RenderWindow()
 //--------------------------------------------------------------------------------
 HWND RenderWindow::GetHandle()
 {
-	return( m_hWnd );
+	return(m_hWnd);
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetWidth( int width )
+void RenderWindow::SetWidth(int width)
 {
 	m_iWidth = width;
 
 	UpdateWindowState();
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetHeight( int height )
+void RenderWindow::SetHeight(int height)
 {
 	m_iHeight = height;
 
@@ -53,17 +53,17 @@ void RenderWindow::SetHeight( int height )
 int RenderWindow::GetWidth()
 {
 	RECT rect;
-	GetClientRect( m_hWnd, &rect );
-	
-	return( rect.right - rect.left );
+	GetClientRect(m_hWnd, &rect);
+
+	return(rect.right - rect.left);
 }
 //--------------------------------------------------------------------------------
 int RenderWindow::GetHeight()
 {
 	RECT rect;
-	GetClientRect( m_hWnd, &rect );
+	GetClientRect(m_hWnd, &rect);
 
-	return( rect.bottom - rect.top );
+	return(rect.bottom - rect.top);
 }
 //--------------------------------------------------------------------------------
 int RenderWindow::GetLeft()
@@ -72,9 +72,9 @@ int RenderWindow::GetLeft()
 	point.x = 0;
 	point.y = 0;
 
-	ClientToScreen( m_hWnd, &point );
+	ClientToScreen(m_hWnd, &point);
 
-	return( point.x );
+	return(point.x);
 }
 //--------------------------------------------------------------------------------
 int RenderWindow::GetTop()
@@ -83,12 +83,12 @@ int RenderWindow::GetTop()
 	point.x = 0;
 	point.y = 0;
 
-	ClientToScreen( m_hWnd, &point );
+	ClientToScreen(m_hWnd, &point);
 
-	return( point.y );
+	return(point.y);
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetSize( int width, int height )
+void RenderWindow::SetSize(int width, int height)
 {
 	m_iWidth = width;
 	m_iHeight = height;
@@ -96,7 +96,7 @@ void RenderWindow::SetSize( int width, int height )
 	UpdateWindowState();
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetPosition( int left, int top )
+void RenderWindow::SetPosition(int left, int top)
 {
 	// The position is specified in terms of the client area - so the actual 
 	// Win32 function needs to use the modified screen coordinates that will put
@@ -108,15 +108,15 @@ void RenderWindow::SetPosition( int left, int top )
 	UpdateWindowState();
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetCaption( std::wstring& caption )
+void RenderWindow::SetCaption(std::wstring& caption)
 {
 	m_sCaption = caption;
 
-	if ( m_hWnd != 0 )
-		SetWindowText( m_hWnd, m_sCaption.c_str() );
+	if (m_hWnd != 0)
+		SetWindowText(m_hWnd, m_sCaption.c_str());
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::ResizeWindow( int width, int height )
+void RenderWindow::ResizeWindow(int width, int height)
 {
 	// This method is called for a WM_SIZE event, so we just update our local
 	// state instead of also calling UpdateWindowState().
@@ -127,22 +127,22 @@ void RenderWindow::ResizeWindow( int width, int height )
 //--------------------------------------------------------------------------------
 std::wstring RenderWindow::GetCaption()
 {
-	return( m_sCaption );
+	return(m_sCaption);
 }
 //--------------------------------------------------------------------------------
 int RenderWindow::GetSwapChain()
 {
-	return( m_iSwapChain );
+	return(m_iSwapChain);
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetSwapChain( int swapchain )
+void RenderWindow::SetSwapChain(int swapchain)
 {
 	m_iSwapChain = swapchain;
 }
 //--------------------------------------------------------------------------------
 void RenderWindow::UpdateWindowState()
 {
-	if ( m_hWnd != 0 )
+	if (m_hWnd != 0)
 	{
 		RECT ClientRect;
 		ClientRect.left = 0;
@@ -152,25 +152,25 @@ void RenderWindow::UpdateWindowState()
 
 		// Adjust the window size for correct device size
 		RECT WindowRect = ClientRect;
-		AdjustWindowRect( &WindowRect, m_dStyle, FALSE );
+		AdjustWindowRect(&WindowRect, m_dStyle, FALSE);
 
-		int deltaX = ( WindowRect.right - ClientRect.right ) / 2;
-		int deltaY = ( WindowRect.bottom - ClientRect.bottom ) / 2;
+		int deltaX = (WindowRect.right - ClientRect.right) / 2;
+		int deltaY = (WindowRect.bottom - ClientRect.bottom) / 2;
 
-		MoveWindow( m_hWnd, m_iLeft - deltaX, m_iTop - deltaY, 
-			m_iWidth + deltaX * 2, m_iHeight + deltaY * 2, true );
+		MoveWindow(m_hWnd, m_iLeft - deltaX, m_iTop - deltaY,
+			m_iWidth + deltaX * 2, m_iHeight + deltaY * 2, true);
 	}
 }
 //--------------------------------------------------------------------------------
-void RenderWindow::SetStyle( DWORD dStyle )
+void RenderWindow::SetStyle(DWORD dStyle)
 {
 	m_dStyle = dStyle;
 
-	SetWindowLongPtr( m_hWnd, GWL_EXSTYLE, m_dStyle );
+	SetWindowLongPtr(m_hWnd, GWL_EXSTYLE, m_dStyle);
 }
 //--------------------------------------------------------------------------------
 DWORD RenderWindow::GetStyle()
 {
-	return( m_dStyle );
+	return(m_dStyle);
 }
 //--------------------------------------------------------------------------------

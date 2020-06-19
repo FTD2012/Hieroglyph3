@@ -19,7 +19,7 @@ class App : public Application
 
 public:
 	App();
-	
+
 public:
 	virtual void Initialize();
 	virtual void Update();
@@ -30,14 +30,14 @@ public:
 
 	virtual void TakeScreenShot();
 
-	virtual bool HandleEvent( EventPtr pEvent );
-	virtual std::wstring GetName( );
+	virtual bool HandleEvent(EventPtr pEvent);
+	virtual std::wstring GetName();
 
 protected:
 
 	RendererDX11*			m_pRenderer11;
 	Win32RenderWindow*		m_pWindow;
-	
+
 	int						m_iSwapChain;
 	ResourcePtr				m_RenderTarget;
 	ResourcePtr				m_DepthTarget;
